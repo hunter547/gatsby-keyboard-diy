@@ -16,7 +16,7 @@ app.use(morgan('common'));
 app.use(bodyParser.json());
 app.use(cors());
 
-var allowedOrigins = ['http://localhost:8000', 'https://keyboard-diy.herokuapp.com'];
+var allowedOrigins = ['http://localhost:8000', 'https://keyboard-diy.herokuapp.com', 'https://keyboard-diy.netlify.app'];
 app.use(cors({
   origin: function(origin, callback) {
     if (!origin) return callback(null, true);

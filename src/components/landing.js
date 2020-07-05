@@ -10,9 +10,9 @@ const Landing = () => {
   });
 
   const getStabs = () => {
-    axios.get('https://localhost:3000/stabs')
+    axios.get('https://keyboard-diy.herokuapp.com/stabs')
     .then(response => {
-      setStab(response.data.descr);
+      setStab(response.data[0].descr);
       setLoaded(true);
     })
     .catch(function(error) {

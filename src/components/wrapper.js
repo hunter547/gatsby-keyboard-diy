@@ -10,9 +10,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import "./layout.css"
+import "../styling/wrapper.scss";
 
-const Layout = ({ children }) => {
+const Wrapper = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -26,23 +26,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div className="wrapper">
         <main>{children}</main>
-        <footer>
-        </footer>
       </div>
     </>
   )
 }
 
-Layout.propTypes = {
+Wrapper.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default Wrapper

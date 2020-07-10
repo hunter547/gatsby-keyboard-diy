@@ -6,8 +6,10 @@ const Landing = () => {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    getStabs();
-  });
+    if (!loaded) {
+      getStabs();
+    }
+  }, []);
 
   const getStabs = () => {
     axios.get('https://keyboard-diy.herokuapp.com/stabs')

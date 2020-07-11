@@ -5,9 +5,10 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
+import React, {useEffect} from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby";
+
 
 import Header from "./header"
 import "../styling/wrapper.scss";
@@ -20,8 +21,17 @@ const Wrapper = ({ children }) => {
           title
         }
       }
+      backgroundSvgJson {
+        svg
+      }
     }
   `)
+
+  useEffect(() => {
+    document.body.style.backgroundImage = `url("${svgString}")`;
+  }, []);
+
+  const svgString = data.backgroundSvgJson.svg;
 
   return (
     <>

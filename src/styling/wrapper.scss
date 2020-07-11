@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import '../styling/variables.scss';
 
 html {
   font-family: 'Montserrat', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #fff;
-  background-color: #000;
-  background-image: url(../images/topography.svg);
 }
 
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: $black;
 }
 
 h1 {
@@ -30,6 +30,7 @@ h1 {
   font-size: 2.25rem;
   line-height: 1.1;
 }
+
 .wrapper {
   margin: 0 auto;
   max-width: 93.75rem;

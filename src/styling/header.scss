@@ -1,7 +1,12 @@
+@import '../styling/variables.scss';
+
 header {
   display: block;
-  background-color: rebeccapurple;
   margin-bottom: 1.45rem;
+  border: 0.0625rem solid rgba($color: $white, $alpha: 0.5);
+  border-radius: .5rem;
+  background-color: $dark-blue;
+
 }
 
 .header {
@@ -15,6 +20,6 @@ header {
 }
 
 .header__link {
-  color: white;
+  color: $white;
   text-decoration: none;
 }

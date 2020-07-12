@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useStaticQuery, graphql } from "gatsby";
+import { Link } from "gatsby";
 import '../styling/landing.scss';
 import gsap from "gsap";
  
@@ -55,11 +56,13 @@ const Landing = () => {
       <div className="landing__keyboard-grid">
         {sizes.map((size, index) => {
           return (
-            <div className="landing__keyboard-grid-item" key={index}>
-              <div className="landing__keyboard-grid-content">
-                {size}
+            <Link to={`/keyboards/${size.replace(/%/,'')}`} key={index}>
+              <div className="landing__keyboard-grid-item">
+                  <div className="landing__keyboard-grid-content">
+                    {size}
+                  </div>
               </div>
-            </div>
+            </Link>
           )
         })} 
       </div>

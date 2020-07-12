@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 
 import Header from "./header"
+import Footer from "./footer"
 import "../styling/wrapper.scss";
 
 const Wrapper = ({ children }) => {
@@ -27,11 +28,11 @@ const Wrapper = ({ children }) => {
     }
   `)
 
+  const svgString = data.backgroundSvgJson.svg;
+
   useEffect(() => {
     document.body.style.backgroundImage = `url("${svgString}")`;
-  }, []);
-
-  const svgString = data.backgroundSvgJson.svg;
+  }, [svgString]);
 
   return (
     <>
@@ -39,6 +40,7 @@ const Wrapper = ({ children }) => {
       <div className="wrapper">
         <main>{children}</main>
       </div>
+      <Footer />
     </>
   )
 }

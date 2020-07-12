@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import '../styling/variables.scss';
+@import './variables.scss';
 
 html {
   font-family: 'Montserrat', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #fff;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
@@ -86,3 +88,4 @@ h4 {
   border-left: 0.1rem solid $dark-blue;
   border-right: 0.1rem solid $dark-blue;
 }
+

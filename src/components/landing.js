@@ -2,8 +2,10 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useStaticQuery, graphql } from "gatsby";
 import '../styling/landing.scss';
+import gsap from "gsap";
  
 const Landing = () => {
+
   const data = useStaticQuery(graphql`
     query landing {
       landingJson {
@@ -17,11 +19,23 @@ const Landing = () => {
   const intro = data.landingJson.intro;
   const sizes = ["60%", "65%", "75%", "80%", "100%"];
 
-  {/*useEffect(() => {
-    if (!loaded) {
-      getStabs();
-    }
-  }, []);*/}
+  useEffect(() => {
+    let tl = gsap.timeline();
+    tl.from('.landing__keyboard-grid-item', {
+      y: 400,
+      display: 'none',
+      duration: 1,
+      ease: 'back.out(5)',
+      stagger: {
+        amount: 1
+      },
+      delay: 0.1
+    })
+    .to('.landing__keyboard-grid-item', {
+      y: 0,
+      display: 'flex'
+    })
+  }, [])
 
   const getStabs = () => {
     axios.get('https://keyboard-diy.herokuapp.com/stabs')

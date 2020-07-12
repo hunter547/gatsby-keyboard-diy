@@ -1,15 +1,27 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { useStaticQuery, graphql } from "gatsby";
+import '../styling/landing.scss';
  
 const Landing = () => {
+  const data = useStaticQuery(graphql`
+    query landing {
+      landingJson {
+        intro
+      }
+    }
+  `)
+
   const [stab, setStab] = useState(null);
   const [loaded, setLoaded] = useState(false);
+  const intro = data.landingJson.intro;
+  const sizes = ["60%", "65%", "75%", "80%", "100%"];
 
-  useEffect(() => {
+  {/*useEffect(() => {
     if (!loaded) {
       getStabs();
     }
-  }, []);
+  }, []);*/}
 
   const getStabs = () => {
     axios.get('https://keyboard-diy.herokuapp.com/stabs')
@@ -22,9 +34,22 @@ const Landing = () => {
     })
   }
 
-  if (!loaded) return <div>Loading...</div>
+  {/*if (!loaded) return <div>Loading...</div>*/}
   return (
-    <h1>{stab}</h1>
+    <div className="landing">
+      <h2>{intro}</h2>
+      <div className="landing__keyboard-grid">
+        {sizes.map((size, index) => {
+          return (
+            <div className="landing__keyboard-grid-item" key={index}>
+              <div className="landing__keyboard-grid-content">
+                {size}
+              </div>
+            </div>
+          )
+        })} 
+      </div>
+    </div>
   );
 }
  

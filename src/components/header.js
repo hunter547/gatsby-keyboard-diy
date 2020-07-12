@@ -14,16 +14,11 @@ const Header = ({ siteTitle }) => {
     }
   `)
 
-  useEffect(() => {
-    const header = document.getElementsByTagName('header');
-    header[0].style.backgroundImage = `url("${svgString}")`;
-  }, [])
-
   var svgString = data.backgroundSvgJson.svg;
   svgString = svgString.replace(/%23ffffff/,"%23023440").replace(/opacity='0.13'/, "opacity='1'");
 
   return(
-    <header>
+    <header style={{backgroundImage: `url("${svgString}")`}} >
       <div className = "header">
         <h1 className = "header__text">
           <Link className="header__link" to="/">

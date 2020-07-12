@@ -3,10 +3,10 @@
 header {
   display: block;
   margin-bottom: 1.45rem;
-  border-radius: .5rem;
+  border-radius: $border-radius;
   background-color: black;
-  box-shadow: inset 0 0 0 .5rem $dark-blue;
-  padding: .5rem;
+  box-shadow: inset 0 0 0 .3rem $dark-blue;
+  padding: .3rem;
 }
 
 .header {

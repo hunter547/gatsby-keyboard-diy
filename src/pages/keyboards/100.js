@@ -1,9 +1,12 @@
 import React from 'react';
 import Keyboard from '../../components/keyboard';
+import Wrapper from '../../components/wrapper';
  
 const Hundred = () => {
   return (
-    <Keyboard size="100%" />
+    <Wrapper>
+      <Keyboard size="100%" />
+    </Wrapper>
   );
 }
  

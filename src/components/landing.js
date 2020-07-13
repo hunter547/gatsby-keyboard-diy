@@ -4,8 +4,28 @@ import { useStaticQuery, graphql } from "gatsby";
 import { Link } from "gatsby";
 import '../styling/landing.scss';
 import gsap from "gsap";
+import { connect } from "react-redux";
+
+const introAnimation = (firstLoad) => {
+  let tl = gsap.timeline();
+  tl.from('.landing__keyboard-grid-item', {
+    y: 400,
+    display: 'none',
+    duration: 1,
+    ease: 'back.out(5)',
+    stagger: {
+      amount: 0.5
+    },
+    delay: 0.1
+  })
+  .to('.landing__keyboard-grid-item', {
+    y: 0,
+    display: 'flex',
+    onStart: firstLoad
+  })
+}
  
-const Landing = () => {
+const Landing = ({ load, increment }) => {
 
   const data = useStaticQuery(graphql`
     query landing {
@@ -20,36 +40,16 @@ const Landing = () => {
   const intro = data.landingJson.intro;
   const sizes = ["60%", "65%", "75%", "80%", "100%"];
 
-  useEffect(() => {
-    let tl = gsap.timeline();
-    tl.from('.landing__keyboard-grid-item', {
-      y: 400,
-      display: 'none',
-      duration: 1,
-      ease: 'back.out(5)',
-      stagger: {
-        amount: 1
-      },
-      delay: 0.1
-    })
-    .to('.landing__keyboard-grid-item', {
-      y: 0,
-      display: 'flex'
-    })
-  }, [])
-
-  const getStabs = () => {
-    axios.get('https://keyboard-diy.herokuapp.com/stabs')
-    .then(response => {
-      setStab(response.data[0].descr);
-      setLoaded(true);
-    })
-    .catch(function(error) {
-      console.log(error);
-    })
+  const firstLoad = () => {
+    increment();
   }
 
-  {/*if (!loaded) return <div>Loading...</div>*/}
+  useEffect(() => {
+    if (load === 0) {
+      introAnimation(firstLoad);
+    }
+  }, []);
+
   return (
     <div className="landing">
       <h2>{intro}</h2>
@@ -69,5 +69,13 @@ const Landing = () => {
     </div>
   );
 }
+
+const mapStateToProps = ({ load }) => {
+  return { load }
+}
+
+const mapDispatchToProps = dispatch => {
+  return { increment: () => dispatch({ type: `INCREMENT` }) }
+}
  
-export default Landing
+export default connect(mapStateToProps, mapDispatchToProps)(Landing);

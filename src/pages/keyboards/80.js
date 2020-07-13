@@ -1,9 +1,12 @@
 import React from 'react';
 import Keyboard from '../../components/keyboard';
+import Wrapper from '../../components/wrapper';
  
 const Eighty = () => {
   return (
-    <Keyboard size="80%" />
+    <Wrapper>
+      <Keyboard size="80%" />
+    </Wrapper>
   );
 }
  

@@ -13,7 +13,7 @@
 }
 .landing__keyboard-grid {
   display: none;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 2fr));
   grid-auto-rows: 1fr;
   font-size: 2rem;
   column-gap: 5%;

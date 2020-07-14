@@ -45,6 +45,9 @@ const Landing = ({ load, increment }) => {
   }
 
   useEffect(() => {
+    gsap.to('.landing__keyboard-grid', {
+      display: 'grid'
+    })
     if (load === 0) {
       introAnimation(firstLoad);
     }

@@ -36,12 +36,14 @@ const Wrapper = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="wrapper">
-        <main>{children}</main>
+      <div className="container">
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <div className="wrapper">
+          <main>{children}</main>
+        </div>
       </div>
       <Footer />
-    </>
+   </> 
   )
 }
 

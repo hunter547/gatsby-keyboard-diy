@@ -1,11 +1,22 @@
 @import './variables.scss';
 
+.keyboard__title {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
 .keyboard__svg {
   width: 80%;
+  margin-top: 1.55rem;
   @media(max-width: 37.5rem) {
     width: 90%
   }
   @media(max-width: 31.25rem) {
     width: 100%;
   }
+}
+
+.keyboard__intro {
+  margin-top: 3rem;
 }

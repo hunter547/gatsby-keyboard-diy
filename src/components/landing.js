@@ -35,8 +35,6 @@ const Landing = ({ load, increment }) => {
     }
   `)
 
-  const [stab, setStab] = useState(null);
-  const [loaded, setLoaded] = useState(false);
   const intro = data.landingJson.intro;
   const sizes = ["60%", "65%", "75%", "80%", "100%"];
 

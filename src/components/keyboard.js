@@ -8,18 +8,18 @@ const Keyboard = ({ size, svg, data }) => {
       <div className="keyboard__title">
         <h1>The {size} keyboard</h1>
       </div>
-      {svg ? 
-          <img className="keyboard__svg" src={svg}></img>
-        : 
-          null
-      }
       <div className="keyboard__intro">
-        {data.intro ? 
+        {data ? 
           <h3>{data.intro}</h3>
         :
           null
         }
       </div>
+      {svg ? 
+          <img className="keyboard__svg" src={svg}></img>
+        : 
+          null
+      }
     </div>
   );
 }

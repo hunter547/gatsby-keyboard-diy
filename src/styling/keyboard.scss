@@ -8,7 +8,6 @@
 
 .keyboard__svg {
   width: 80%;
-  margin-top: 1.55rem;
   @media(max-width: 37.5rem) {
     width: 90%
   }
@@ -18,5 +17,5 @@
 }
 
 .keyboard__intro {
-  margin-top: 3rem;
+  margin-bottom: 4rem;
 }

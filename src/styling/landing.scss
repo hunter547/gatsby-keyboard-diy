@@ -1,5 +1,12 @@
 @import './variables.scss';
 
+.landing {
+  h1 {
+    font-size: 2rem;
+    color: $pink
+  }
+}
+
 .landing__keyboard-grid::before {
   content: '';
   width: 0;
@@ -18,11 +25,10 @@
   font-size: 2rem;
   column-gap: 5%;
   row-gap: 3rem;
-  padding-top: 3rem;
   margin-bottom: 4rem;
   a {
-    text-decoration: none;
     color: $white;
+    text-decoration: none;
   }
   .landing__keyboard-grid-item {
     display: flex;

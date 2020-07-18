@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styling/keyboard.scss';
  
-const Keyboard = ({ size, svg, data }) => {
+const Keyboard = ({ size, Keyboard, data }) => {
 
   return (
     <div className="keyboard">
@@ -15,8 +15,8 @@ const Keyboard = ({ size, svg, data }) => {
           null
         }
       </div>
-      {svg ? 
-          <img className="keyboard__svg" src={svg}></img>
+      {Keyboard ? 
+          <Keyboard className="keyboard__svg" />
         : 
           null
       }

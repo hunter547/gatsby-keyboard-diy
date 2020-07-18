@@ -9,10 +9,10 @@ import { connect } from "react-redux";
 const introAnimation = (firstLoad) => {
   let tl = gsap.timeline();
   tl.from('.landing__keyboard-grid-item', {
-    y: 400,
+    y: 300,
     display: 'none',
     duration: 1,
-    ease: 'back.out(5)',
+    ease: 'back.out(4.2)',
     stagger: {
       amount: 0.5
     },
@@ -53,7 +53,9 @@ const Landing = ({ load, increment }) => {
 
   return (
     <div className="landing">
+      <h1>Welcome!</h1>
       <h2>{intro}</h2>
+      <h1>Sizes:</h1>
       <div className="landing__keyboard-grid">
         {sizes.map((size, index) => {
           return (
@@ -67,6 +69,7 @@ const Landing = ({ load, increment }) => {
           )
         })} 
       </div>
+      <h2>Welcome to mechanical keyboards DIY info! Here you can learn about the different keyboard sizes, their components, where to buy them, and how to build them. When first starting out in this hobby, it can be really difficult to figure out all the right parts and navigating the wild west of Ali Express or Banggood. Skip waiting for DIY build kits to re-stock and stick around to figure out all the right parts here! Select a keyboard size to get started.</h2>
     </div>
   );
 }

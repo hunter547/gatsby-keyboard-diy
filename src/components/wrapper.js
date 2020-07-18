@@ -41,8 +41,8 @@ const Wrapper = ({ children }) => {
         <div className="wrapper">
           <main>{children}</main>
         </div>
+        <Footer />
       </div>
-      <Footer />
    </> 
   )
 }

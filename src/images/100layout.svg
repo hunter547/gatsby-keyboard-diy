@@ -28,13 +28,13 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:current-layer="svg4123"
+     inkscape:current-layer="g4119"
      inkscape:window-maximized="0"
      inkscape:window-y="23"
      inkscape:window-x="0"
      inkscape:cy="157.0498"
-     inkscape:cx="496.1936"
-     inkscape:zoom="0.77911649"
+     inkscape:cx="841.45648"
+     inkscape:zoom="1.558233"
      showgrid="false"
      id="namedview4125"
      inkscape:window-height="1011"
@@ -5450,11 +5450,11 @@
        sodipodi:role="line">INS</tspan></text>
   <text
      id="text831"
-     y="118.27213"
+     y="115.70512"
      x="963.78192"
      style="font-size:13.3333px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial Normal';text-align:center;text-anchor:middle"
      xml:space="preserve"><tspan
-       y="118.27213"
+       y="115.70512"
        x="963.78192"
        id="tspan829"
        sodipodi:role="line">PGUP</tspan></text>
@@ -5480,11 +5480,11 @@
        sodipodi:role="line">END</tspan></text>
   <text
      id="text843"
-     y="172.27213"
+     y="169.55563"
      x="964.03583"
      style="font-size:13.3333px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial Normal';text-align:center;text-anchor:middle"
      xml:space="preserve"><tspan
-       y="172.27213"
+       y="169.55563"
        x="964.03583"
        id="tspan841"
        sodipodi:role="line">PGDN</tspan></text>

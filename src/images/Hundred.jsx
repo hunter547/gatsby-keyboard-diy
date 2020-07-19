@@ -5874,7 +5874,7 @@ function Hundred(props) {
       </text>
       <text
         id="prefix__text831"
-        y={118.272}
+        y={115.705}
         x={963.782}
         style={{
           lineHeight: 1.5,
@@ -5886,7 +5886,7 @@ function Hundred(props) {
         fontFamily="Arial"
         textAnchor="middle"
       >
-        <tspan y={118.272} x={963.782} id="prefix__tspan829">
+        <tspan y={115.705} x={963.782} id="prefix__tspan829">
           {"PGUP"}
         </tspan>
       </text>
@@ -5928,7 +5928,7 @@ function Hundred(props) {
       </text>
       <text
         id="prefix__text843"
-        y={172.272}
+        y={169.556}
         x={964.036}
         style={{
           lineHeight: 1.5,
@@ -5940,7 +5940,7 @@ function Hundred(props) {
         fontFamily="Arial"
         textAnchor="middle"
       >
-        <tspan y={172.272} x={964.036} id="prefix__tspan841">
+        <tspan y={169.556} x={964.036} id="prefix__tspan841">
           {"PGDN"}
         </tspan>
       </text>

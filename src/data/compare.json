@@ -1,0 +1,120 @@
+[
+  {
+    "id": "60to65",
+    "title":"Comparing 60% to a 65%",
+    "slug":"60to65",
+    "keyboard1":"Sixty",
+    "keyboard2":"SixtyFive"
+  },
+  {
+    "id": "60to75",
+    "title":"Comparing 60% to a 75%",
+    "slug":"60to75",
+    "keyboard1":"Sixty",
+    "keyboard2":"SeventyFive"
+  },
+  {
+    "id": "60to80",
+    "title":"Comparing 60% to a 80%",
+    "slug":"60to80",
+    "keyboard1":"Sixty",
+    "keyboard2":"Eighty"
+  },
+  {
+    "id": "60to100",
+    "title":"Comparing 60% to a 100%",
+    "slug":"60to100",
+    "keyboard1":"Sixty",
+    "keyboard2":"Hundred"
+  },
+
+
+  {
+    "id": "65to60",
+    "title":"Comparing 65% to a 60%",
+    "slug":"65to60",
+    "keyboard1":"SixtyFive",
+    "keyboard2":"Sixty"
+  },
+  {
+    "id": "65to75",
+    "title":"Comparing 65% to a 75%",
+    "slug":"65to75",
+    "keyboard1":"SixtyFive",
+    "keyboard2":"SeventyFive"
+  },
+  {
+    "id": "65to80",
+    "title":"Comparing 65% to a 80%",
+    "slug":"65to80",
+    "keyboard1":"SixtyFive",
+    "keyboard2":"Eighty"
+  },
+  {
+    "id": "65to100",
+    "title":"Comparing 65% to a 100%",
+    "slug":"65to100",
+    "keyboard1":"SixtyFive",
+    "keyboard2":"Hundred"
+  },
+
+
+  {
+    "id": "75to60",
+    "title":"Comparing 75% to a 60%",
+    "slug":"75to60",
+    "keyboard1":"SeventyFive",
+    "keyboard2":"Sixty"
+  },
+  {
+    "id": "75to65",
+    "title":"Comparing 75% to a 65%",
+    "slug":"75to65",
+    "keyboard1":"SeventyFive",
+    "keyboard2":"SixtyFive"
+  },
+  {
+    "id": "75to80",
+    "title":"Comparing 75% to a 80%",
+    "slug":"75to80",
+    "keyboard1":"SeventyFive",
+    "keyboard2":"Eighty"
+  },
+  {
+    "id": "75to100",
+    "title":"Comparing 75% to a 100%",
+    "slug":"75to100",
+    "keyboard1":"SeventyFive",
+    "keyboard2":"Hundred"
+  },
+
+
+  {
+    "id": "100to60",
+    "title":"Comparing 100% to a 60%",
+    "slug":"100to60",
+    "keyboard1":"Hundred",
+    "keyboard2":"Sixty"
+  },
+  {
+    "id": "100to65",
+    "title":"Comparing 100% to a 65%",
+    "slug":"100to65",
+    "keyboard1":"Hundred",
+    "keyboard2":"SixtyFive"
+  },
+  {
+    "id": "100to75",
+    "title":"Comparing 100% to a 75%",
+    "slug":"100to75",
+    "keyboard1":"Hundred",
+    "keyboard2":"SeventyFive"
+  },
+  {
+    "id": "100to80",
+    "title":"Comparing 100% to a 80%",
+    "slug":"100to80",
+    "keyboard1":"Hundred",
+    "keyboard2":"Eighty"
+  }
+]

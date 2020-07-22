@@ -25,13 +25,6 @@ const Keyboard = ({ size, Keyboard, data }) => {
         }
       </div>
       <Keyboard className="keyboard__svg" />
-      {sizes.map((keyboard, index) => {
-        return (
-          <Link to="/compare" key={index} state={{ size, keyboard }}>
-            <button style={{marginTop: '2rem'}}>Compare with {keyboard}</button>
-          </Link>
-        )
-      })}
     </div>
   );
 }

@@ -25,6 +25,15 @@ const Keyboard = ({ size, Keyboard, data }) => {
         }
       </div>
       <Keyboard className="keyboard__svg" />
+      <div className="keyboard__compare-div">
+        {sizes.map((keyboard, index) => {
+          return (
+            <Link to={`/compare/${size.replace(/%/,'')}to${keyboard.replace(/%/,'')}`} key={index}>
+              <button className="keyboard__compare-button">Compare with {keyboard}</button>
+            </Link>
+          )
+        })}
+      </div>
     </div>
   );
 }

@@ -82,6 +82,22 @@ h4 {
   line-height: 1.1;
 }
 
+button {
+  font: inherit;
+  background: transparent;
+  color: $white;
+  padding: 0.5rem;
+  border: 0.1rem solid white;
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: $white;
+  color: $black;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 60rem;

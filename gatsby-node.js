@@ -18,7 +18,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
     data.allCompareJson.edges.forEach((edge) => {
       const compare = edge.node;
       createPage({
-        path: `/${compare.slug}`,
+        path: `/compare/${compare.slug}`,
         component: require.resolve('./src/components/compare.js'),
         context: {
           data: edge.node,

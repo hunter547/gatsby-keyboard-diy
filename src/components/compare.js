@@ -1,29 +1,41 @@
-import React, { Suspense } from 'react';
+import React, { useState, useEffect } from 'react';
 import Wrapper from '../components/wrapper';
+import '../styling/compare.scss';
  
 
-function loadComponent(name) {
-  const Component = React.lazy(() =>
-    import(`../images/${name}.jsx`)
-  );
-  return Component;
-}
-
 const Compare = ({ pageContext }) => {
+
+  const addComponent = async name => {
+    import(`../images/${name}.jsx`)
+      .then( component => {
+        setComponents( array => array.concat(component.default));
+      })
+      .catch( error => {
+        console.log(error)
+      })
+  }
+
   const data = pageContext.data;
   
-  const Keyboard1 = loadComponent(data.keyboard1);
-  const Keyboard2 = loadComponent(data.keyboard2);
+  const [components, setComponents] = useState([]);
 
-  console.log(Keyboard1);
+  useEffect(() => {
+    addComponent(data.keyboard1);
+    addComponent(data.keyboard2);
+  }, [])
+
+  if (components.length !== 2) return <div>Loading...</div>;
+
+  const keyboardComponents = components.map((Keyboard, index) => (
+    <Keyboard className="keyboard__svg" key={index} />
+  ));
 
   return (
     <Wrapper>
       <h1>{data.title}</h1>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Keyboard1 />
-        <Keyboard2 />
-      </Suspense>
+      {keyboardComponents[0]}
+      <h1 style={{ marginTop:'1.45rem' }}>VS.</h1>
+      {keyboardComponents[1]}
     </Wrapper>
   )
   

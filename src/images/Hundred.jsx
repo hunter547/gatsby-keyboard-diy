@@ -155,7 +155,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3091"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -174,7 +174,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3095"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -195,7 +195,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3101"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -214,7 +214,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3105"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -235,7 +235,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3111"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -254,7 +254,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3115"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -275,7 +275,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3121"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -294,7 +294,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3125"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -315,7 +315,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3131"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -334,7 +334,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3135"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -355,7 +355,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3141"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -374,7 +374,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3145"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -395,7 +395,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3151"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -414,7 +414,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3155"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -435,7 +435,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3161"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -454,7 +454,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3165"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -475,7 +475,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3171"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -494,7 +494,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3175"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -515,7 +515,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3181"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -534,7 +534,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3185"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -555,7 +555,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3191"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -574,7 +574,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3195"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -595,7 +595,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3201"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -614,7 +614,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3205"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -635,7 +635,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3211"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -654,12 +654,12 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3215"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
               y={4}
-              x={829.624}
+              x={830.5}
             />
           </g>
           <g id="prefix__g3227" className="prefix__keycap">
@@ -675,7 +675,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3221"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -694,12 +694,12 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3225"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
               y={4}
-              x={883.657}
+              x={884.5}
             />
           </g>
           <g id="prefix__g3237" className="prefix__keycap">
@@ -715,7 +715,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3231"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -734,7 +734,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3235"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -1315,7 +1315,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3381"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -1334,7 +1334,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3385"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -1355,7 +1355,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3391"
-              fill="#ccc"
+              fill={props.fill80 ? props.fill80 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -1374,12 +1374,12 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3395"
-              fill="#fcfcfc"
+              fill={props.fill80 ? props.fill80 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
               y={85}
-              x={882.92}
+              x={884.5}
             />
           </g>
           <g id="prefix__g3407" className="prefix__keycap">
@@ -1435,7 +1435,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3421"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -1454,7 +1454,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3425"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -1475,7 +1475,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3431"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -1494,7 +1494,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3435"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -1515,7 +1515,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3441"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -1534,7 +1534,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3445"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -2146,7 +2146,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3601"
-              fill="#ccc"
+              fill={props.fill80 ? props.fill80 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -2165,7 +2165,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3605"
-              fill="#fcfcfc"
+              fill={props.fill80 ? props.fill80 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -2226,7 +2226,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3621"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -2245,7 +2245,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3625"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -2266,7 +2266,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3631"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -2285,7 +2285,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3635"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -2306,7 +2306,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3641"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -2325,7 +2325,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3645"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -2346,7 +2346,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3651"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={106}
               width={52}
@@ -2365,7 +2365,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3655"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={94}
               width={40}
@@ -2906,7 +2906,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3791"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -2925,7 +2925,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3795"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -2946,7 +2946,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3801"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -2965,7 +2965,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3805"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -2986,7 +2986,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3811"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -3005,7 +3005,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3815"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -3546,7 +3546,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3951"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -3565,7 +3565,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3955"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -3586,7 +3586,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3961"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -3605,7 +3605,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3965"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -3626,7 +3626,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3971"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -3645,7 +3645,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3975"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -3666,7 +3666,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3981"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={106}
               width={52}
@@ -3685,7 +3685,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3985"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={94}
               width={40}
@@ -4146,7 +4146,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect4101"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={106}
@@ -4165,7 +4165,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect4105"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={94}
@@ -4186,7 +4186,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect4111"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -4205,7 +4205,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect4115"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -4226,7 +4226,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3411"
-              fill="#ccc"
+              fill={props.fill100 ? props.fill100 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -4245,7 +4245,7 @@ function Hundred(props) {
             />
             <rect
               id="prefix__rect3415"
-              fill="#fcfcfc"
+              fill={props.fill100 ? props.fill100 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -4517,17 +4517,17 @@ function Hundred(props) {
           InkscapeFontSpecification: "'Arial Normal'",
           textAlign: "center",
         }}
-        x={854.822}
+        x={855.698}
         y={28.453}
         id="prefix__text5471"
         fontSize={10.667}
         fontFamily="Arial"
         textAnchor="middle"
       >
-        <tspan id="prefix__tspan5469" x={854.822} y={28.453}>
+        <tspan id="prefix__tspan5469" x={855.698} y={28.453}>
           {"PRINT"}
         </tspan>
-        <tspan x={854.822} y={38.053} id="prefix__tspan5473">
+        <tspan x={855.698} y={38.053} id="prefix__tspan5473">
           {"SCRN"}
         </tspan>
       </text>
@@ -4538,17 +4538,17 @@ function Hundred(props) {
           InkscapeFontSpecification: "'Arial Normal'",
           textAlign: "center",
         }}
-        x={908.788}
+        x={909.631}
         y={28.518}
         id="prefix__text5477"
         fontSize={10.667}
         fontFamily="Arial"
         textAnchor="middle"
       >
-        <tspan id="prefix__tspan5475" x={908.788} y={28.518}>
+        <tspan id="prefix__tspan5475" x={909.631} y={28.518}>
           {"SCRL"}
         </tspan>
-        <tspan x={908.788} y={38.118} id="prefix__tspan5479">
+        <tspan x={909.631} y={38.118} id="prefix__tspan5479">
           {"LOCK"}
         </tspan>
       </text>
@@ -4580,14 +4580,14 @@ function Hundred(props) {
           InkscapeFontSpecification: "'Arial Normal'",
           textAlign: "center",
         }}
-        x={908.267}
+        x={910}
         y={114.798}
         id="prefix__text5489"
         fontSize={12}
         fontFamily="Arial"
         textAnchor="middle"
       >
-        <tspan id="prefix__tspan5487" x={908.267} y={114.798}>
+        <tspan id="prefix__tspan5487" x={910} y={114.798}>
           {"HOME"}
         </tspan>
       </text>

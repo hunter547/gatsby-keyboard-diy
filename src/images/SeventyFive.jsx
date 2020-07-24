@@ -4384,13 +4384,13 @@ function SeventyFive(props) {
           textAlign: "center",
         }}
         x={842.505}
-        y={307.544}
+        y={304.544}
         id="prefix__text687"
         fontSize={20}
         fontFamily="Arial"
         textAnchor="middle"
       >
-        <tspan id="prefix__tspan685" x={842.505} y={307.544}>
+        <tspan id="prefix__tspan685" x={842.505} y={304.544}>
           {"\u2192"}
         </tspan>
       </text>

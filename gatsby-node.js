@@ -10,6 +10,12 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               slug
               keyboard1
               keyboard2
+              colors {
+                _65
+                _75
+                _80
+                _100
+              }
             }
           }
         }

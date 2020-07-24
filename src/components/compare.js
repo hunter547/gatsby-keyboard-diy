@@ -27,7 +27,14 @@ const Compare = ({ pageContext }) => {
   if (components.length !== 2) return <div>Loading...</div>;
 
   const keyboardComponents = components.map((Keyboard, index) => (
-    <Keyboard className="keyboard__svg" key={index} />
+    <Keyboard 
+      className="keyboard__svg"
+      key={index}
+      fill65={data.colors[index]._65} 
+      fill75={data.colors[index]._75}
+      fill80={data.colors[index]._80}
+      fill100={data.colors[index]._100}
+    />
   ));
 
   return (

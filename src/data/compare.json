@@ -4,28 +4,76 @@
     "title":"Comparing 60% to a 65%",
     "slug":"60to65",
     "keyboard1":"Sixty",
-    "keyboard2":"SixtyFive"
+    "keyboard2":"SixtyFive",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "60to75",
     "title":"Comparing 60% to a 75%",
     "slug":"60to75",
     "keyboard1":"Sixty",
-    "keyboard2":"SeventyFive"
+    "keyboard2":"SeventyFive",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "60to80",
     "title":"Comparing 60% to a 80%",
     "slug":"60to80",
     "keyboard1":"Sixty",
-    "keyboard2":"Eighty"
+    "keyboard2":"Eighty",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "60to100",
     "title":"Comparing 60% to a 100%",
     "slug":"60to100",
     "keyboard1":"Sixty",
-    "keyboard2":"Hundred"
+    "keyboard2":"Hundred",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "lightgreen",
+      "80": "lightgreen",
+      "100":"lightgreen"
+    }]
   },
 
 
@@ -34,28 +82,76 @@
     "title":"Comparing 65% to a 60%",
     "slug":"65to60",
     "keyboard1":"SixtyFive",
-    "keyboard2":"Sixty"
+    "keyboard2":"Sixty",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "65to75",
     "title":"Comparing 65% to a 75%",
     "slug":"65to75",
     "keyboard1":"SixtyFive",
-    "keyboard2":"SeventyFive"
+    "keyboard2":"SeventyFive",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "65to80",
     "title":"Comparing 65% to a 80%",
     "slug":"65to80",
     "keyboard1":"SixtyFive",
-    "keyboard2":"Eighty"
+    "keyboard2":"Eighty",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "65to100",
     "title":"Comparing 65% to a 100%",
     "slug":"65to100",
     "keyboard1":"SixtyFive",
-    "keyboard2":"Hundred"
+    "keyboard2":"Hundred",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "lightgreen",
+      "80": "lightgreen",
+      "100":"lightgreen"
+    }]
   },
 
 
@@ -64,29 +160,159 @@
     "title":"Comparing 75% to a 60%",
     "slug":"75to60",
     "keyboard1":"SeventyFive",
-    "keyboard2":"Sixty"
+    "keyboard2":"Sixty",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "75to65",
     "title":"Comparing 75% to a 65%",
     "slug":"75to65",
     "keyboard1":"SeventyFive",
-    "keyboard2":"SixtyFive"
+    "keyboard2":"SixtyFive",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "75to80",
     "title":"Comparing 75% to a 80%",
     "slug":"75to80",
     "keyboard1":"SeventyFive",
-    "keyboard2":"Eighty"
+    "keyboard2":"Eighty",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "75to100",
     "title":"Comparing 75% to a 100%",
     "slug":"75to100",
     "keyboard1":"SeventyFive",
-    "keyboard2":"Hundred"
+    "keyboard2":"Hundred",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "lightgreen",
+      "100":"lightgreen"
+    }]
   },
+
+
+
+
+  {
+    "id": "80to60",
+    "title":"Comparing 80% to a 60%",
+    "slug":"80to60",
+    "keyboard1":"Eighty",
+    "keyboard2":"Sixty",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
+  },
+  {
+    "id": "80to65",
+    "title":"Comparing 80% to a 65%",
+    "slug":"80to65",
+    "keyboard1":"Eighty",
+    "keyboard2":"SixtyFive",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
+  },
+  {
+    "id": "80to75",
+    "title":"Comparing 80% to a 75%",
+    "slug":"80to75",
+    "keyboard1":"Eighty",
+    "keyboard2":"SeventyFive",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
+  },
+  {
+    "id": "80to100",
+    "title":"Comparing 80% to a 100%",
+    "slug":"80to100",
+    "keyboard1":"Eighty",
+    "keyboard2":"Hundred",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":"lightgreen"
+    }]
+  },
+
+
 
 
   {
@@ -94,27 +320,75 @@
     "title":"Comparing 100% to a 60%",
     "slug":"100to60",
     "keyboard1":"Hundred",
-    "keyboard2":"Sixty"
+    "keyboard2":"Sixty",
+    "colors": [{
+      "65": "tomato",
+      "75": "tomato",
+      "80": "tomato",
+      "100":"tomato"
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "100to65",
     "title":"Comparing 100% to a 65%",
     "slug":"100to65",
     "keyboard1":"Hundred",
-    "keyboard2":"SixtyFive"
+    "keyboard2":"SixtyFive",
+    "colors": [{
+      "65": "",
+      "75": "tomato",
+      "80": "tomato",
+      "100":"tomato"
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "100to75",
     "title":"Comparing 100% to a 75%",
     "slug":"100to75",
     "keyboard1":"Hundred",
-    "keyboard2":"SeventyFive"
+    "keyboard2":"SeventyFive",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "tomato",
+      "100":"tomato"
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   },
   {
     "id": "100to80",
     "title":"Comparing 100% to a 80%",
     "slug":"100to80",
     "keyboard1":"Hundred",
-    "keyboard2":"Eighty"
+    "keyboard2":"Eighty",
+    "colors": [{
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":"tomato"
+    },
+    {
+      "65": "",
+      "75": "",
+      "80": "",
+      "100":""
+    }]
   }
 ]

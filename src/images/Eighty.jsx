@@ -115,7 +115,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect677"
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -134,7 +134,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect681"
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -155,7 +155,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect687"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -174,7 +174,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect691"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -195,7 +195,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect697"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -214,7 +214,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect701"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -235,7 +235,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect707"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -254,7 +254,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect711"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -275,7 +275,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect717"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -294,7 +294,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect721"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -315,7 +315,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect727"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -334,7 +334,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect731"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -355,7 +355,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect737"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -374,7 +374,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect741"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -395,7 +395,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect747"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -414,7 +414,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect751"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -435,7 +435,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect757"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -454,7 +454,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect761"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -475,7 +475,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect767"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -494,7 +494,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect771"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -515,7 +515,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect777"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -534,7 +534,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect781"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -555,7 +555,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect787"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -574,7 +574,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect791"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -595,7 +595,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect797"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -614,7 +614,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect801"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -635,7 +635,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect807"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -654,7 +654,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect811"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -675,7 +675,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect817"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -694,7 +694,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect821"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -715,7 +715,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect827"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -734,7 +734,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect831"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -1315,7 +1315,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect977"
-              fill="#ccc"
+              fill={props.fill75 ? props.fill75 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -1334,7 +1334,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect981"
-              fill="#fcfcfc"
+              fill={props.fill75 ? props.fill75 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -1355,7 +1355,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect987"
-              fill="#ccc"
+              fill={props.fill80 ? props.fill80 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -1374,7 +1374,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect991"
-              fill="#fcfcfc"
+              fill={props.fill80 ? props.fill80 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -1395,7 +1395,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect997"
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -1414,7 +1414,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1001"
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -1995,7 +1995,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1147"
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -2014,7 +2014,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1151"
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -2035,7 +2035,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1157"
-              fill="#ccc"
+              fill={props.fill80 ? props.fill80 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -2054,7 +2054,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1161"
-              fill="#fcfcfc"
+              fill={props.fill80 ? props.fill80 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -2075,7 +2075,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1167"
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -2094,7 +2094,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1171"
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -3115,7 +3115,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1427"
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -3134,7 +3134,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1431"
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -3475,7 +3475,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1517"
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -3494,7 +3494,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1521"
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -3515,7 +3515,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1527"
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -3534,7 +3534,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1531"
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}
@@ -3555,7 +3555,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1537"
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               rx={5}
               height={52}
               width={52}
@@ -3574,7 +3574,7 @@ function Eighty(props) {
             />
             <rect
               id="prefix__rect1541"
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               rx={5}
               height={40}
               width={40}

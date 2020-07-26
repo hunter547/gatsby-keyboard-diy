@@ -50,9 +50,9 @@
       "100":""
     },
     {
-      "65": "tomato",
-      "75": "tomato",
-      "80": "tomato",
+      "65": "lightgreen",
+      "75": "lightgreen",
+      "80": "lightgreen",
       "100":""
     }]
   },
@@ -242,9 +242,9 @@
     "keyboard1":"Eighty",
     "keyboard2":"Sixty",
     "colors": [{
-      "65": "lightgreen",
-      "75": "lightgreen",
-      "80": "lightgreen",
+      "65": "tomato",
+      "75": "tomato",
+      "80": "tomato",
       "100":""
     },
     {
@@ -262,8 +262,8 @@
     "keyboard2":"SixtyFive",
     "colors": [{
       "65": "",
-      "75": "lightgreen",
-      "80": "lightgreen",
+      "75": "tomato",
+      "80": "tomato",
       "100":""
     },
     {
@@ -282,7 +282,7 @@
     "colors": [{
       "65": "",
       "75": "",
-      "80": "lightgreen",
+      "80": "tomato",
       "100":""
     },
     {

@@ -30,6 +30,7 @@ const Compare = ({ pageContext }) => {
     <Keyboard 
       className="keyboard__svg"
       key={index}
+      fill60={data.colors[index]._60}
       fill65={data.colors[index]._65} 
       fill75={data.colors[index]._75}
       fill80={data.colors[index]._80}

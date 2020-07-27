@@ -11,6 +11,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               keyboard1
               keyboard2
               colors {
+                _60
                 _65
                 _75
                 _80

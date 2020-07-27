@@ -2475,7 +2475,7 @@ function Sixty(props) {
             />
             <rect
               id="prefix__rect634"
-              fill="#ccc"
+              fill={props.fill60 ? props.fill60 : '#ccc'}
               rx={5}
               height={52}
               width={65.5}
@@ -2494,7 +2494,7 @@ function Sixty(props) {
             />
             <rect
               id="prefix__rect638"
-              fill="#fcfcfc"
+              fill={props.fill60 ? props.fill60 : '#fcfcfc'}
               rx={5}
               height={40}
               width={53.5}

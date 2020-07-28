@@ -119,7 +119,7 @@ function SixtyFive(props) {
               width={52}
               height={52}
               rx={5}
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               id="prefix__rect44"
             />
             <rect
@@ -138,7 +138,7 @@ function SixtyFive(props) {
               width={40}
               height={40}
               rx={5}
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               id="prefix__rect48"
             />
           </g>
@@ -1279,7 +1279,7 @@ function SixtyFive(props) {
               width={52}
               height={52}
               rx={5}
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               id="prefix__rect334"
             />
             <rect
@@ -1298,7 +1298,7 @@ function SixtyFive(props) {
               width={40}
               height={40}
               rx={5}
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               id="prefix__rect338"
             />
           </g>
@@ -1839,7 +1839,7 @@ function SixtyFive(props) {
               width={52}
               height={52}
               rx={5}
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               id="prefix__rect474"
             />
             <rect
@@ -1858,7 +1858,7 @@ function SixtyFive(props) {
               width={40}
               height={40}
               rx={5}
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               id="prefix__rect478"
             />
           </g>
@@ -2359,7 +2359,7 @@ function SixtyFive(props) {
               width={52}
               height={52}
               rx={5}
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               id="prefix__rect604"
             />
             <rect
@@ -2378,7 +2378,7 @@ function SixtyFive(props) {
               width={40}
               height={40}
               rx={5}
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               id="prefix__rect608"
             />
           </g>
@@ -2399,7 +2399,7 @@ function SixtyFive(props) {
               width={52}
               height={52}
               rx={5}
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               id="prefix__rect614"
             />
             <rect
@@ -2418,7 +2418,7 @@ function SixtyFive(props) {
               width={40}
               height={40}
               rx={5}
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               id="prefix__rect618"
             />
           </g>
@@ -2719,7 +2719,7 @@ function SixtyFive(props) {
               width={52}
               height={52}
               rx={5}
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               id="prefix__rect694"
             />
             <rect
@@ -2738,7 +2738,7 @@ function SixtyFive(props) {
               width={40}
               height={40}
               rx={5}
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               id="prefix__rect698"
             />
           </g>
@@ -2759,7 +2759,7 @@ function SixtyFive(props) {
               width={52}
               height={52}
               rx={5}
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               id="prefix__rect704"
             />
             <rect
@@ -2778,7 +2778,7 @@ function SixtyFive(props) {
               width={40}
               height={40}
               rx={5}
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               id="prefix__rect708"
             />
           </g>
@@ -2799,7 +2799,7 @@ function SixtyFive(props) {
               width={52}
               height={52}
               rx={5}
-              fill="#ccc"
+              fill={props.fill65 ? props.fill65 : '#ccc'}
               id="prefix__rect714"
             />
             <rect
@@ -2818,7 +2818,7 @@ function SixtyFive(props) {
               width={40}
               height={40}
               rx={5}
-              fill="#fcfcfc"
+              fill={props.fill65 ? props.fill65 : '#fcfcfc'}
               id="prefix__rect718"
             />
           </g>

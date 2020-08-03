@@ -1,1 +1,20 @@
 @import './variables.scss';
+
+.compare__legend {
+  margin-bottom: 1.45rem;
+}
+.compare__gain, .compare__lose {
+  display: flex;
+}
+
+.compare__gain-icon, .compare__lose-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+  background: lightgreen;
+}
+
+.compare__lose-icon {
+  background: tomato;
+}

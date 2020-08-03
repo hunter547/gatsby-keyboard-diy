@@ -41,6 +41,16 @@ const Compare = ({ pageContext }) => {
   return (
     <Wrapper>
       <h1>{data.title}</h1>
+      <div className="compare__legend">
+        <div className="compare__gain">
+          <div className="compare__gain-icon"></div>
+          <h3>Keys gained</h3>
+        </div>
+        <div className="compare__lose">
+          <div className="compare__lose-icon"></div>
+          <h3>Keys lost</h3>
+        </div>
+      </div>
       {keyboardComponents[0]}
       <h1 style={{ marginTop:'1.45rem' }}>VS.</h1>
       {keyboardComponents[1]}
